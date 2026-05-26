@@ -1,0 +1,9 @@
+Tải ở terminal
+-m pip install ultralytics opencv-python mediapipe==0.10.9 mysql-connector-python python-dotenv Pillow
+
+Xóa hết để tải lại nếu bị lỗi
+-m pip uninstall ultralytics opencv-python mediapipe mysql-connector-python python-dotenv Pillow -y
+-m pip cache purge
+
+Kiểm tra nếu tải xong
+-c "import cv2, mediapipe, ultralytics, mysql.connector, dotenv, PIL; print('OK - Tất cả thư viện đã sẵn sàng')"

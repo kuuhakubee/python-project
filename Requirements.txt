@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+mediapipe
+mysql-connector-python
+python-dotenv
+Pillow
